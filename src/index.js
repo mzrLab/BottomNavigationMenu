@@ -6,7 +6,9 @@ import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
+    <div style={{display:'flex',width:'100%',justifyContent:'center'}}>
     <LabelBottomNavigation />
+    </div>
   </React.StrictMode>,
   document.getElementById('root')
 );
